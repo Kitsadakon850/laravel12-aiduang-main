@@ -206,7 +206,7 @@ Route::post('/product-submit', function (HttpRequest $request) {
         'description.required' => 'กรุณากรอกรายละเอียดสินค้า',
         'price.required' => 'กรุณากรอกราคา',
         'price.numeric' => 'ราคาต้องเป็นตัวเลข',
-        'image.image' => 'ไฟล์ต้องเป็นรูปภาพ',
+        'image.image' => 'ไฟล์ต้องเป็นรูปภาพ',8
     ]);
 
     // ตรวจสอบว่ามีการอัปโหลดรูปภาพ
